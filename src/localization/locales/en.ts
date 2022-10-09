@@ -14,7 +14,6 @@
 'sdca23702207fba73': `This site has app functionality. Install it on your device for extensive experience and easy access.`,
 'sa5ef80b4bb9b39f8': `Less`,
 's37a9e8aec5713460': `More`,
-'sd2fd35287f0a935b': `language`,
 's8d0173763d91830c': `This site has app functionality. Add it to your Home Screen for extensive experience and easy access.`,
 'sdfe23506a3b0cdc8': `1) Open in Safari browser`,
 's1b9047d53d9f9d22': `2) Press Share in Navigation bar`,
