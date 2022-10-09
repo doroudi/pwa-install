@@ -203,7 +203,7 @@ export class PWAInstallElement extends LitElement {
 	};
 
 	connectedCallback() {
-		changeLocale(navigator.language);
+		changeLocale('fa')  // (navigator.language);
 		this._init();
 		PWAGalleryElement.finalized;
 		PWABottomSheetElement.finalized;

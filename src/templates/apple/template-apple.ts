@@ -7,8 +7,8 @@ const template = (name: string, description: string, installDescription: string,
     const installDialogClassesApple = () => { return {available: installAvailable, 'how-to': howToRequested, gallery: galleryRequested }};
 
     return html`
-        <aside id="pwa-install-element">
-            <article class="install-dialog apple ${classMap(installDialogClassesApple())} dialog-body">
+        <aside id="pwa-install-element" class="${msg('dir')}">
+            <article class="install-dialog apple  ${classMap(installDialogClassesApple())} dialog-body">
                 <div class="icon">
                     <img src="${icon}" alt="icon" class="icon-image">
                 </div>

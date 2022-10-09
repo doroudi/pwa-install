@@ -7,7 +7,7 @@ const template = (name: string, description: string, installDescription: string,
     const installDialogClasses = () => { return {available: installAvailable, gallery: galleryRequested }};
 
     return html`
-        <div id="pwa-install-element">
+        <div id="pwa-install-element" class="${msg('dir')}">
             <div class="install-dialog chrome ${classMap(installDialogClasses())}">
                 <div class="dialog-body">
                     <div class="icon">

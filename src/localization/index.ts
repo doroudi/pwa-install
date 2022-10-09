@@ -4,14 +4,12 @@ import {
   targetLocales,
 } from './locale-codes';
 
-import * as ru from './locales/ru';
-import * as tr from './locales/tr';
-import * as de from "./locales/de"
+import * as fa from './locales/fa';
+import * as en from './locales/en';
 
 const localizedTemplates = new Map([
-  ['ru', ru],
-  ['tr', tr],
-  ['de', de]
+  ['fa', fa],
+  ['en', en],
 ])
 
 export const { getLocale, setLocale } = configureLocalization({

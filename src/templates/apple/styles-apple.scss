@@ -9,7 +9,7 @@
         --border-bottom-color: rgba(0, 0, 0, 0.1);
 
         font-family: system-ui, -apple-system, 'HelveticaNeue', BlinkMacSystemFont, "Roboto", "Segoe UI";
-
+        direction: rtl;
         // display: inline-grid;
         // grid-template-rows: 1fr auto;
         // grid-gap: 15px;
@@ -395,6 +395,27 @@
     }
 }
 
+#pwa-install-element.rtl{
+    .install-dialog.apple {
+        direction: rtl;       
+    
+        .welcome-to-install {
+            text-align: right;
+        }
+
+        .about .close {
+            margin-right: auto;
+            margin-left: 3px;
+        }
+
+        .dialog-button.button.gallery {
+           margin-left: 15px;
+           margin-right: 0; 
+        }
+    }
+
+    
+}
 $phone-small-landscape: 667px;
 
 @media (min-width: $phone-small-landscape) {
